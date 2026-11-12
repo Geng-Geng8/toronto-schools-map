@@ -163,7 +163,6 @@ async function initMap() {
     // No build system or secrets required: this works on GitHub Pages from any repository path.
     const maplibregl=await import('https://unpkg.com/maplibre-gl@6.17.0/dist/maplibre-gl.mjs');
     app.maplibre=maplibregl;
-    if(!maplibregl.supported())throw new Error('WebGL is unavailable on this device');
     if(app.map){app.map.remove();app.map=null;app.mapReady=false;}
     const map=new maplibregl.Map({container:el.map,style:'https://tiles.openfreemap.org/styles/liberty',center:[-79.387,43.715],zoom:10.5,attributionControl:true,maxZoom:19,dragRotate:false,touchPitch:false});
     app.map=map;
