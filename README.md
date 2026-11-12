@@ -47,6 +47,8 @@ Data was extracted **without changing school names, boards, grade ranges, addres
 
 This is **not a live school-directory feed**. School contact details, campuses, grade ranges and links can change. Review provenance, licences, accuracy and updates before representing data as current or official. Preserve all required source acknowledgements when publishing.
 
+Contains information licensed under the [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario) and the [Open Government Licence – Toronto](https://open.toronto.ca/open-data-licence/).
+
 ## External services / privacy
 
 - Map library CSS/module: `https://unpkg.com/maplibre-gl@6.17.0/…` (pinned version, CDN).
